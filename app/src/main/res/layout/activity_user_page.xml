@@ -22,9 +22,9 @@
 
         <com.mikhaellopez.circularimageview.CircularImageView
             android:id="@+id/userPhoto"
-            android:layout_width="90dp"
-            android:layout_height="90dp"
-            android:layout_marginStart="@dimen/margin_24dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="@dimen/margin_12dp"
             android:layout_marginTop="@dimen/margin_8dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/upperToolBar"
@@ -33,7 +33,7 @@
             app:civ_shadow="true"
             app:civ_shadow_color="@color/shadowColor"
             app:civ_shadow_gravity="bottom"
-            app:civ_shadow_radius="19" />
+            app:civ_shadow_radius="10" />
 
 
         <ImageButton
